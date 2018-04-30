@@ -14,3 +14,4 @@ $ ruby dircover.rb -h example.com
 ```
 
 #### Output example
+![output example](https://github.com/dreadlocked/DircoverRB/raw/master/output_example.png)

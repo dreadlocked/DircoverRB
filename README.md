@@ -5,12 +5,19 @@ DircoverRB is a tool made to discover directories and subdomains for a domain us
 #### Dependencies
 DircoverRB dependents on *nokogiri* and *rubytree*, maybe in the future this dependencies could be removed.
 
-#### Install & usage
+#### Install
 ```
 $ git clone https://github.com/dreadlocked/DircoverRB.git
 $ cd DircoverRB
 $ bundle install
-$ ruby dircover.rb -h example.com
+```
+
+#### Usage
+```
+Usage: dircover.rb [options]
+    -d, --domain DOMAIN              Hostname or IP address
+    -p, --pages PAGES                Bing pages to be parsed, by default 30
+    -h, --help                       Prints this help
 ```
 
 #### Output example
